@@ -31,6 +31,11 @@
 #define NSEC_DDR_1_BASE		0x60000000U
 #define NSEC_DDR_1_SIZE		0x20000000
 
+#elif defined(PLATFORM_FLAVOR_g2l_custom)
+/* DDR 512Mbyte x1 */
+#define NSEC_DDR_0_BASE		0x47E00000U
+#define NSEC_DDR_0_SIZE		0x18200000
+
 #elif defined(PLATFORM_FLAVOR_g2l_dev15_4)
 /* DDR 2Gbyte x2 */
 #define NSEC_DDR_0_BASE		0x47E00000U
